@@ -1,0 +1,237 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin for-mobile {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-only {
+  @media (min-width: 600px) and (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin for-desktop {
+  @media (min-width: 901px) {
+    @content;
+  }
+}
+
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+.flyout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.home-feature-box .fa {
+  font-size: 6rem;
+}
+
+.home-feature-box span {
+  display: block;
+  color: #111;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.example-components-list li>a {
+  color: #495057;
+}
+
+.example-components-list li:last-child>a {
+  border-bottom: 0;
+}
+
+.example-components-list li>a .fa {
+  color: rgba(0, 0, 0, .35);
+  float: right;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #3f51b5 !important
+}
+
+.jumbo-col {
+  padding-bottom: 6rem;
+  width: 60%;
+  text-align: justify;
+
+  @include for-mobile {
+    width: 100%
+  }
+}
+
+@include for-phone-only {
+  .navbar-collapse {
+    margin-top: 20px
+  }
+}
+
+.navbar.navbar-dark .navbar-toggler {
+
+  &.hamburger {
+    .navbar-toggler-icon {
+      background-image: url('hamburger.svg') !important;
+    }
+
+  }
+
+
+  &.close {
+    .navbar-toggler-icon {
+      background-image: url('close.svg') !important;
+    }
+
+  }
+}
+
+
+
+/* About page  */
+
+.about-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+}
+
+
+/* Voucher page  */
+
+.voucher-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+}
+
+
+/* Legalisation page  */
+
+.legalisations-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+}
+
+
+/* Courses page  */
+
+.courses-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+}
+
+
+/* Courses page  */
+
+.prices-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+}
+
+
+/* Courses page  */
+
+.contact-page {
+  .background-image {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include for-mobile {
+      background-image: none !important;
+    }
+  }
+
+  #intro-contacts {
+    width: 300px;
+    margin-left: 60px;
+    text-align: justify;
+    margin-top: 5px;
+    color: #2765A0;
+
+    @include for-mobile {
+      width: auto;
+      margin-left: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2765A0;
+    }
+
+    .contact-content {
+      border: 1px solid #999;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #999;
+      margin-top: 5px;
+      padding: 15px 0 15px 30px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      @include for-mobile {
+        padding: 15px;
+      }
+
+      span {
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+
+      img {
+        margin-left: 10px;
+        vertical-align: middle;
+        border-style: none;
+      }
+    }
+  }
+}
