@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/askora-new/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/askora-new/static/js/main.a111ce70.chunk.js",
-    "main.js.map": "/askora-new/static/js/main.a111ce70.chunk.js.map",
-    "runtime-main.js": "/askora-new/static/js/runtime-main.a1f2d801.js",
-    "runtime-main.js.map": "/askora-new/static/js/runtime-main.a1f2d801.js.map",
-    "static/js/2.fd4b4712.chunk.js": "/askora-new/static/js/2.fd4b4712.chunk.js",
-    "static/js/2.fd4b4712.chunk.js.map": "/askora-new/static/js/2.fd4b4712.chunk.js.map",
-    "static/js/3.0b65defa.chunk.js": "/askora-new/static/js/3.0b65defa.chunk.js",
-    "static/js/3.0b65defa.chunk.js.map": "/askora-new/static/js/3.0b65defa.chunk.js.map",
+    "main.css": "/askora-new/static/css/main.0e9a3504.chunk.css",
+    "main.js": "/askora-new/static/js/main.548366d4.chunk.js",
+    "main.js.map": "/askora-new/static/js/main.548366d4.chunk.js.map",
+    "runtime~main.js": "/askora-new/static/js/runtime~main.1b3eabd6.js",
+    "runtime~main.js.map": "/askora-new/static/js/runtime~main.1b3eabd6.js.map",
+    "static/css/2.9287d1f0.chunk.css": "/askora-new/static/css/2.9287d1f0.chunk.css",
+    "static/js/2.dfea6823.chunk.js": "/askora-new/static/js/2.dfea6823.chunk.js",
+    "static/js/2.dfea6823.chunk.js.map": "/askora-new/static/js/2.dfea6823.chunk.js.map",
     "index.html": "/askora-new/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/askora-new/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.fd4b4712.chunk.js.LICENSE.txt": "/askora-new/static/js/2.fd4b4712.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/askora-new/static/media/logo.6ce24c58.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.a1f2d801.js",
-    "static/js/2.fd4b4712.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.a111ce70.chunk.js"
-  ]
+    "precache-manifest.046c704c7e000b8acd5332be880f91e6.js": "/askora-new/precache-manifest.046c704c7e000b8acd5332be880f91e6.js",
+    "service-worker.js": "/askora-new/service-worker.js",
+    "static/css/2.9287d1f0.chunk.css.map": "/askora-new/static/css/2.9287d1f0.chunk.css.map",
+    "static/css/main.0e9a3504.chunk.css.map": "/askora-new/static/css/main.0e9a3504.chunk.css.map",
+    "static/media/mdb.css": "/askora-new/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/index.scss": "/askora-new/static/media/hamburger.2e122b21.svg",
+    "static/media/all.min.css": "/askora-new/static/media/fa-solid-900.f14c3b2f.ttf"
+  }
 }
