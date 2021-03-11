@@ -9,7 +9,7 @@ import {
   MDBCard,
   MDBCardImage,
   MDBCardText,
-  MDBAnimation,
+  MDBAnimation
 } from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
@@ -126,6 +126,8 @@ class AboutPage extends React.Component {
             </MDBAnimation>
           </MDBCol>
         </MDBRow>
+
+        
 
       </MDBContainer>
     </div>

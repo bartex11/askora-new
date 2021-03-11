@@ -90,6 +90,7 @@ class App extends Component {
                     <strong>{data.menuTranslations}</strong>
                   </MDBNavLink>
                 </MDBNavItem>
+
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse ('mainNavbarCollapse')}
@@ -116,6 +117,15 @@ class App extends Component {
                   </MDBNavLink>
                 </MDBNavItem>
 
+                <MDBNavItem>
+                  <MDBNavLink
+                    onClick={this.closeCollapse ('mainNavbarCollapse')}
+                    to="/css"
+                  >
+                    <strong>AAAAAAAAA</strong>
+                  </MDBNavLink>
+                </MDBNavItem>
+
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>
@@ -129,7 +139,7 @@ class App extends Component {
               АСКОРА
             </p>
             <div className="footer-copyright mb-0 py-3 text-center">
-            Designed by <a href="http://bartonization.com/" target="_blank">Bartonization</a>
+            Designed by <a href="http://bartonization.com/" target="_blank" rel="noreferrer" >Bartonization</a>
             </div>
             
           </MDBFooter>
