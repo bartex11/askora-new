@@ -2,10 +2,23 @@ import React from 'react';
 import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
+import Data from '../data/Data';
 
-const PricesPage = props => {
-  return (
-    <div className="prices-page">
+class PricesPage extends React.Component {
+  scrollToTop = () => window.scrollTo (0, 0);
+
+  state = {
+    data: Data,
+  };
+
+  componentDidMount(){
+    document.title = "Аскора ООД - Цени"
+  }
+
+  render () {
+    const {data} = this.state;
+    return (
+      <div className="prices-page">
 
       <MDBContainer className="mt-5">
         <MDBRow>
@@ -20,14 +33,15 @@ const PricesPage = props => {
                   <MDBCol className="py-5 jumbo-col">
 
                     <p className="mb-2">
-                      Преводът не е търговско изделие, което предварително съществува в напълно готов вид.
+                      {data.pricesList}
                     </p>
 
                     <p className="mb-2">
-                      Всеки отделен текст представлява уникат, чиято форма и най-вече съдържание трябва да бъдат “прехвърлени” на съответния език.
+                      {data.pricesList1}
                     </p>
+
                     <p>
-                      Поръчвайки превод, Вие купувате времето и професионализма на отделен преводач или екип от преводачи.
+                      {data.pricesList2}
                     </p>
 
                   </MDBCol>
@@ -39,7 +53,9 @@ const PricesPage = props => {
       </MDBContainer>
 
     </div>
-  );
-};
+
+    );
+  }
+}
 
 export default PricesPage;

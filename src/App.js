@@ -128,6 +128,10 @@ class App extends Component {
               &copy; {new Date ().getFullYear ()} Copyright:
               АСКОРА
             </p>
+            <div className="footer-copyright mb-0 py-3 text-center">
+            Designed by <a href="http://bartonization.com/" target="_blank">Bartonization</a>
+            </div>
+            
           </MDBFooter>
         </div>
       </Router>

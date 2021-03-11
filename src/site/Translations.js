@@ -3,9 +3,21 @@ import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
 
-const TranslationsPage = props => {
-  return (
-    <div className="voucher-page">
+import Data from '../data/Data';
+
+
+class TranslationsPage extends React.Component {
+  scrollToTop = () => window.scrollTo (0, 0);
+  state = {
+    data: Data,
+  };
+  componentDidMount(){
+    document.title = "Аскора ООД - Преводи"
+  }
+  render () {
+    const {data} = this.state;
+    return (
+      <div className="voucher-page">
 
       <MDBContainer className="mt-5">
         <MDBRow>
@@ -19,11 +31,11 @@ const TranslationsPage = props => {
                   <MDBCol className="py-5 jumbo-col">
 
                     <p className="mb-2">
-                      Високо качество, приемливи цени, прецизно спазване на обещаните срокове, конфендициалност и сигурност са водещите принципи в нашата дейност, като даваме предимство на качеството пред бързината. Основната ни цел е да удовлетворим нуждите на нашите клиенти.
+                      {data.translationList}
                     </p>
 
                     <p className="mb-2">
-                      Като професионална агенция за преводи Аскора ООД има сключен договор с Министерството на външните работи за извършване на официални преводи на документи и други книжа от български на чужди езици и от чужди езици на български.
+                      {data.translationList1}
                     </p>
 
                   </MDBCol>
@@ -35,7 +47,10 @@ const TranslationsPage = props => {
       </MDBContainer>
 
     </div>
-  );
-};
 
+    );
+  }
+}
 export default TranslationsPage;
+
+

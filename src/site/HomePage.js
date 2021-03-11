@@ -83,7 +83,7 @@ class HomePage extends React.Component {
                             <strong>{data.menuAbout}</strong>
                           </MDBCardTitle>
                           <MDBCardText>
-                            Тук ще научите повече за екипа на Аскора
+                            {data.aboutMore}
                           </MDBCardText>
                           <MDBNavLink
                             tag="button"
@@ -110,10 +110,10 @@ class HomePage extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <i class="fas fa-language pink-text pr-2" />
-                            <strong>Преводи</strong>
+                            <strong>{data.menuTranslations}</strong>
                           </MDBCardTitle>
                           <MDBCardText>
-                            Повече за преводите на Аскора
+                            {data.translationMore}
                           </MDBCardText>
 
                           <MDBNavLink
@@ -141,10 +141,10 @@ class HomePage extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <i class="fas fa-globe-americas pink-text pr-2" />
-                            <strong>Легализация</strong>
+                            <strong>{data.menuLegalisation}</strong>
                           </MDBCardTitle>
                           <MDBCardText>
-                            Ние легализираме всичко
+                            {data.legalisationMore}
                           </MDBCardText>
 
                           <MDBNavLink
@@ -175,10 +175,10 @@ class HomePage extends React.Component {
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
                             <i class="far fa-credit-card pink-text pr-2" />
-                            <strong>Цени</strong>
+                            <strong>{data.menuPrices}</strong>
                           </MDBCardTitle>
                           <MDBCardText>
-                            Научи повече за нашите цени
+                            {data.pricesMore}
                           </MDBCardText>
 
                           <MDBNavLink

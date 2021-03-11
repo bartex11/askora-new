@@ -2,10 +2,23 @@ import React from 'react';
 import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
+import Data from '../data/Data';
 
-const LegalisationPage = props => {
-  return (
-    <div className="legalisations-page">
+class LegalisationPage extends React.Component {
+  scrollToTop = () => window.scrollTo (0, 0);
+
+  state = {
+    data: Data,
+  };
+
+  componentDidMount(){
+    document.title = "Аскора ООД - Легализация"
+  }
+
+  render () {
+    const {data} = this.state;
+    return (
+      <div className="legalisations-page">
 
       <MDBContainer className="mt-5">
         <MDBRow>
@@ -19,14 +32,15 @@ const LegalisationPage = props => {
                   <MDBCol className="py-5 jumbo-col">
 
                     <p className="mb-2">
-                      Аскора ООД урежда всички формалности по заверката и легализацията на Вашите документи във всички държавни институции и посолства в Република България.
+                      {data.legalisationList}
                     </p>
 
                     <p className="mb-2">
-                      Предлагаме също така услуги по заверката на легализираните документи в посолствата и консулските служби на чуждите държави в България.
+                      {data.legalisationList1}
                     </p>
+
                     <p>
-                      Цената на легализирания документ следователно се формира като сума от стойността на превода, куриерската услуга и държавната такса за заверка и апостил в съответната институция.
+                      {data.legalisationList2}
                     </p>
 
                   </MDBCol>
@@ -38,7 +52,9 @@ const LegalisationPage = props => {
       </MDBContainer>
 
     </div>
-  );
-};
+
+    );
+  }
+}
 
 export default LegalisationPage;

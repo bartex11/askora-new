@@ -41,7 +41,7 @@ class Contacts extends React.Component {
 
                             <MDBIcon icon="map-marker-alt" size="2x" />
                             <span>
-                              6600 Kърджали <br /> ул."Републиканска" 41
+                              {data.contactsAddress}
                             </span>
                           </div>
                         </a>
@@ -55,7 +55,7 @@ class Contacts extends React.Component {
 
                             <MDBIcon fab icon="facebook-square" size="2x" />
 
-                            <span id="fb">Аскора във фейсбук</span>
+                            <span id="fb">{data.contactsFb}</span>
                           </div>
                         </a>
                         <a href="#name">
@@ -64,7 +64,7 @@ class Contacts extends React.Component {
                             <MDBIcon far icon="envelope" size="2x" />
 
                             <span>
-                              Пишете ни:<br />askora@mbox.contact.bg
+                              {data.contactsMail} <br /> {data.contactsMail1}
                             </span>
                           </div>
                         </a>
