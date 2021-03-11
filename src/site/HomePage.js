@@ -57,9 +57,6 @@ class HomePage extends React.Component {
           <MDBContainer>
             <MDBRow>
               <MDBCol md="12" className="mt-4 text-justify">
-                {/* <h2 className="text-center my-5 font-weight-bold">
-                  Аскора сме велики защото:
-                </h2> */}
                 <p className="text-muted mb-2">
                   {data.home1}
                 </p>
@@ -101,42 +98,14 @@ class HomePage extends React.Component {
                       </MDBCard>
                     </MDBAnimation>
                   </MDBCol>
-                  <MDBCol md="4">
-                    <MDBAnimation reveal type="fadeInDown">
-                      <MDBCard cascade className="my-3 grey lighten-4">
-                        <MDBCardImage
-                          cascade
-                          className="img-fluid"
-                          src="./images/globus.jpg"
-                        />
-                        <MDBCardBody cascade className="text-center">
-                          <MDBCardTitle>
-                            <i class="far fa-file pink-text pr-2" />
-                            <strong>Ваучери</strong>
-                          </MDBCardTitle>
-                          <MDBCardText>
-                            За програмите с ваучери
-                          </MDBCardText>
-                          <MDBNavLink
-                            tag="button"
-                            to="/vouchers"
-                            color="mdb-color"
-                            className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                            onClick={this.scrollToTop}
-                          >
-                            {data.more}
-                          </MDBNavLink>
-                        </MDBCardBody>
-                      </MDBCard>
-                    </MDBAnimation>
-                  </MDBCol>
+             
                   <MDBCol md="4">
                     <MDBAnimation reveal type="fadeInRight">
                       <MDBCard cascade className="my-3 grey lighten-4">
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="./images/globus1.jpg"
+                          src="./images/globus.jpg"
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -160,16 +129,14 @@ class HomePage extends React.Component {
                       </MDBCard>
                     </MDBAnimation>
                   </MDBCol>
-                </MDBRow>
 
-                <MDBRow id="categories">
                   <MDBCol md="4">
                     <MDBAnimation reveal type="fadeInLeft">
                       <MDBCard cascade className="my-3 grey lighten-4">
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="https://mdbootstrap.com/wp-content/uploads/2017/06/navigation-1.jpg"
+                          src="./images/globus1.jpg"
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>
@@ -178,12 +145,11 @@ class HomePage extends React.Component {
                           </MDBCardTitle>
                           <MDBCardText>
                             Ние легализираме всичко
-
                           </MDBCardText>
 
                           <MDBNavLink
                             tag="button"
-                            to="/legalisations"
+                            to="/legalisation"
                             color="mdb-color"
                             className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
                             onClick={this.scrollToTop}
@@ -194,43 +160,17 @@ class HomePage extends React.Component {
                       </MDBCard>
                     </MDBAnimation>
                   </MDBCol>
-                  <MDBCol md="4">
-                    <MDBAnimation reveal type="fadeIn">
-                      <MDBCard cascade className="my-3 grey lighten-4">
-                        <MDBCardImage
-                          cascade
-                          className="img-fluid"
-                          src="https://mdbootstrap.com/wp-content/uploads/2015/08/forms.jpg"
-                        />
-                        <MDBCardBody cascade className="text-center">
-                          <MDBCardTitle>
-                            <i class="fas fa-university pink-text pr-2" />
-                            <strong>Курсове</strong>
-                          </MDBCardTitle>
-                          <MDBCardText>
-                            Курсове провеждани в аскора
-                          </MDBCardText>
+                </MDBRow>
 
-                          <MDBNavLink
-                            tag="button"
-                            to="/courses"
-                            color="mdb-color"
-                            className="btn btn-outline-mdb-color btn-sm btn-rounded d-inline"
-                            onClick={this.scrollToTop}
-                          >
-                            {data.more}
-                          </MDBNavLink>
-                        </MDBCardBody>
-                      </MDBCard>
-                    </MDBAnimation>
-                  </MDBCol>
+                <MDBRow id="categories">
+                  
                   <MDBCol md="4">
                     <MDBAnimation reveal type="fadeInRight">
                       <MDBCard cascade className="my-3 grey lighten-4">
                         <MDBCardImage
                           cascade
                           className="img-fluid"
-                          src="https://mdbootstrap.com/wp-content/uploads/2015/08/table-fb.jpg"
+                          src="./images/courses.jpg"
                         />
                         <MDBCardBody cascade className="text-center">
                           <MDBCardTitle>

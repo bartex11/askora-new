@@ -81,14 +81,7 @@ class App extends Component {
                     <strong>{data.menuAbout}</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse ('mainNavbarCollapse')}
-                    to="/vouchers"
-                  >
-                    <strong>{data.menuVouchers}</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
+    
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse ('mainNavbarCollapse')}
@@ -105,14 +98,7 @@ class App extends Component {
                     <strong>{data.menuLegalisation}</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse ('mainNavbarCollapse')}
-                    to="/courses"
-                  >
-                    <strong>{data.menuCourses}</strong>
-                  </MDBNavLink>
-                </MDBNavItem>
+        
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse ('mainNavbarCollapse')}
