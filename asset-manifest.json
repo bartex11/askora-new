@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/askora-new/static/css/main.27ec138d.chunk.css",
-    "main.js": "/askora-new/static/js/main.ee461a01.chunk.js",
-    "main.js.map": "/askora-new/static/js/main.ee461a01.chunk.js.map",
+    "main.js": "/askora-new/static/js/main.b0abdd77.chunk.js",
+    "main.js.map": "/askora-new/static/js/main.b0abdd77.chunk.js.map",
     "runtime~main.js": "/askora-new/static/js/runtime~main.1b3eabd6.js",
     "runtime~main.js.map": "/askora-new/static/js/runtime~main.1b3eabd6.js.map",
     "static/css/2.9287d1f0.chunk.css": "/askora-new/static/css/2.9287d1f0.chunk.css",
     "static/js/2.dfea6823.chunk.js": "/askora-new/static/js/2.dfea6823.chunk.js",
     "static/js/2.dfea6823.chunk.js.map": "/askora-new/static/js/2.dfea6823.chunk.js.map",
     "index.html": "/askora-new/index.html",
-    "precache-manifest.d7ad4afe0b5867815ef96364ecda5117.js": "/askora-new/precache-manifest.d7ad4afe0b5867815ef96364ecda5117.js",
+    "precache-manifest.e0679f4a174b4e3cdbfedc2792b4e608.js": "/askora-new/precache-manifest.e0679f4a174b4e3cdbfedc2792b4e608.js",
     "service-worker.js": "/askora-new/service-worker.js",
     "static/css/2.9287d1f0.chunk.css.map": "/askora-new/static/css/2.9287d1f0.chunk.css.map",
     "static/css/main.27ec138d.chunk.css.map": "/askora-new/static/css/main.27ec138d.chunk.css.map",
