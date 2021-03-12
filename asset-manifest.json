@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/askora-new/static/css/main.27ec138d.chunk.css",
-    "main.js": "/askora-new/static/js/main.b0abdd77.chunk.js",
-    "main.js.map": "/askora-new/static/js/main.b0abdd77.chunk.js.map",
+    "main.css": "/askora-new/static/css/main.b84bd5be.chunk.css",
+    "main.js": "/askora-new/static/js/main.45195f33.chunk.js",
+    "main.js.map": "/askora-new/static/js/main.45195f33.chunk.js.map",
     "runtime~main.js": "/askora-new/static/js/runtime~main.1b3eabd6.js",
     "runtime~main.js.map": "/askora-new/static/js/runtime~main.1b3eabd6.js.map",
     "static/css/2.9287d1f0.chunk.css": "/askora-new/static/css/2.9287d1f0.chunk.css",
     "static/js/2.dfea6823.chunk.js": "/askora-new/static/js/2.dfea6823.chunk.js",
     "static/js/2.dfea6823.chunk.js.map": "/askora-new/static/js/2.dfea6823.chunk.js.map",
     "index.html": "/askora-new/index.html",
-    "precache-manifest.e0679f4a174b4e3cdbfedc2792b4e608.js": "/askora-new/precache-manifest.e0679f4a174b4e3cdbfedc2792b4e608.js",
+    "precache-manifest.a066feebee63602a3596af5884c01f4b.js": "/askora-new/precache-manifest.a066feebee63602a3596af5884c01f4b.js",
     "service-worker.js": "/askora-new/service-worker.js",
     "static/css/2.9287d1f0.chunk.css.map": "/askora-new/static/css/2.9287d1f0.chunk.css.map",
-    "static/css/main.27ec138d.chunk.css.map": "/askora-new/static/css/main.27ec138d.chunk.css.map",
+    "static/css/main.b84bd5be.chunk.css.map": "/askora-new/static/css/main.b84bd5be.chunk.css.map",
     "static/media/mdb.css": "/askora-new/static/media/arrow_right.8ef6a08c.svg",
     "static/media/index.scss": "/askora-new/static/media/hamburger.2e122b21.svg",
     "static/media/all.min.css": "/askora-new/static/media/fa-solid-900.f14c3b2f.ttf"
