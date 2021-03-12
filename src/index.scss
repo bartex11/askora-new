@@ -32,6 +32,8 @@ BREAKPOINTS
   }
 }
 
+$card-color: #2c9eff;
+
 .flyout {
   display: flex;
   flex-direction: column;
@@ -101,8 +103,6 @@ BREAKPOINTS
   }
 }
 
-
-
 /* About page  */
 
 .about-page {
@@ -116,7 +116,6 @@ BREAKPOINTS
     }
   }
 }
-
 
 /* Voucher page  */
 
@@ -236,3 +235,107 @@ BREAKPOINTS
     }
   }
 }
+
+.indigo {
+  background-color: #2c9eff !important;
+}
+
+
+.card {
+  border-radius: 0;
+}
+
+.card-color {
+  background: $card-color;
+}
+
+.card .card-body .card-text {
+  color: #232323;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.grey-icon {
+  color: #2f3950;
+}
+
+.jumbotron {
+  border-radius: 0;
+}
+
+.btn-outline-mdb-color {
+  border: 2px solid #2f3950!important;
+  background-color: transparent !important;
+  color: #2f3950 !important;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  padding: 0 50px;
+
+  @include for-mobile{
+    padding: 0;
+  }
+}
+
+.translation-list {
+  text-align: left;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+
+  @include for-mobile{
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+
+  li {
+    padding: 0 15px;
+    margin-bottom: 5px;
+  }
+}
+
+.tranlsation-item {
+  margin: 15px 0;
+
+  .animated {
+    height: 100%;
+    .card {
+      height: 100%;
+    }
+  }
+}
+
+.contact-link {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-color-text {
+  background: $card-color;
+  color: #fff;
+}
+
+.sertifikat-image {
+  width: 100%;
+}
+
+.modal .text-black .close {
+  color: #000;
+}
+
+.text-black .modal-title {
+  color: #000;
+}
+
+.translation-footer {
+  justify-content: center;
+
+  ul {
+    text-align: left;
+  }
+}
+

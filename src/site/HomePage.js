@@ -32,7 +32,7 @@ class HomePage extends React.Component {
     const { data } = this.state;
     return (
       <div>
-        <MDBEdgeHeader color="indigo darken-3" className="sectionPage" />
+        <MDBEdgeHeader color="indigo" className="sectionPage" />
         <div className="mt-3 mb-5">
           <MDBFreeBird>
             <MDBRow>
@@ -75,7 +75,7 @@ class HomePage extends React.Component {
                       <MDBNavLink
                         tag="button"
                         to="/contacts"
-                        className=""
+                        className="contact-link"
                         onClick={this.scrollToTop}
                       >
                         <MDBBtn outline color="white" className="mb-5">
@@ -90,7 +90,7 @@ class HomePage extends React.Component {
             <MDBRow>
               <MDBCol md="4">
                 <MDBAnimation reveal type="fadeInLeft">
-                  <MDBCard cascade className="my-3 grey lighten-4">
+                  <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
                       cascade
                       className="img-fluid"
@@ -98,7 +98,7 @@ class HomePage extends React.Component {
                     />
                     <MDBCardBody cascade className="text-center">
                       <MDBCardTitle>
-                        <i className="fas fa-home pink-text pr-2" />
+                        <i className="fas fa-home grey-icon pr-2" />
                         <strong>{data.menuAbout}</strong>
                       </MDBCardTitle>
                       <MDBCardText>{data.aboutMore}</MDBCardText>
@@ -118,7 +118,7 @@ class HomePage extends React.Component {
 
               <MDBCol md="4">
                 <MDBAnimation reveal type="fadeInRight">
-                  <MDBCard cascade className="my-3 grey lighten-4">
+                  <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
                       cascade
                       className="img-fluid"
@@ -126,7 +126,7 @@ class HomePage extends React.Component {
                     />
                     <MDBCardBody cascade className="text-center">
                       <MDBCardTitle>
-                        <i class="fas fa-language pink-text pr-2" />
+                        <i class="fas fa-language grey-icon pr-2" />
                         <strong>{data.menuTranslations}</strong>
                       </MDBCardTitle>
                       <MDBCardText>{data.translationMore}</MDBCardText>
@@ -147,7 +147,7 @@ class HomePage extends React.Component {
 
               <MDBCol md="4">
                 <MDBAnimation reveal type="fadeInLeft">
-                  <MDBCard cascade className="my-3 grey lighten-4">
+                  <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
                       cascade
                       className="img-fluid"
@@ -155,7 +155,7 @@ class HomePage extends React.Component {
                     />
                     <MDBCardBody cascade className="text-center">
                       <MDBCardTitle>
-                        <i class="fas fa-globe-americas pink-text pr-2" />
+                        <i class="fas fa-globe-americas grey-icon pr-2" />
                         <strong>{data.menuLegalisation}</strong>
                       </MDBCardTitle>
                       <MDBCardText>{data.legalisationMore}</MDBCardText>
@@ -178,7 +178,7 @@ class HomePage extends React.Component {
             <MDBRow>
               <MDBCol md="4">
                 <MDBAnimation reveal type="fadeInRight">
-                  <MDBCard cascade className="my-3 grey lighten-4">
+                  <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
                       cascade
                       className="img-fluid"
@@ -186,7 +186,7 @@ class HomePage extends React.Component {
                     />
                     <MDBCardBody cascade className="text-center">
                       <MDBCardTitle>
-                        <i class="far fa-credit-card pink-text pr-2" />
+                        <i class="far fa-credit-card grey-icon pr-2" />
                         <strong>{data.menuPrices}</strong>
                       </MDBCardTitle>
                       <MDBCardText>{data.pricesMore}</MDBCardText>
