@@ -58,16 +58,16 @@ class Contacts extends React.Component {
                             <span id="fb">{data.contactsFb}</span>
                           </div>
                         </a>
-                        <a href="#name">
-                          <div className="contact-content">
 
-                            <MDBIcon far icon="envelope" size="2x" />
+                      
+                        <div className="contact-content">
+                          <MDBIcon far icon="envelope" size="2x" />
 
-                            <span>
-                              {data.contactsMail} <br /> {data.contactsMail1}
-                            </span>
-                          </div>
-                        </a>
+                          <span>
+                            {data.contactsMail} <br /> {data.contactsMail1}
+                          </span>
+                        </div>
+                          
                         <div className="contact-content">
 
                           <MDBIcon icon="phone" size="2x" />

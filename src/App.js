@@ -120,7 +120,7 @@ class App extends Component {
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse ('mainNavbarCollapse')}
-                    to="/css"
+                    to="/components/list-group"
                   >
                     <strong>AAAAAAAAA</strong>
                   </MDBNavLink>
@@ -130,16 +130,18 @@ class App extends Component {
             </MDBCollapse>
           </MDBNavbar>
           {collapseID && overlay}
+
           <main style={{marginTop: '4rem'}}>
             <Routes />
           </main>
+
           <MDBFooter color="indigo">
             <p className="footer-copyright mb-0 py-3 text-center">
               &copy; {new Date ().getFullYear ()} Copyright:
               АСКОРА
             </p>
             <div className="footer-copyright mb-0 py-3 text-center">
-            Designed by <a href="http://bartonization.com/" target="_blank" rel="noreferrer" >Bartonization</a>
+            Designed by <a href="https://bartex11.github.io/bartonization/" target="_blank" rel="noreferrer" >Bartonization</a>
             </div>
             
           </MDBFooter>
