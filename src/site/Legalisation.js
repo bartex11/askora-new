@@ -1,5 +1,15 @@
 import React from 'react';
-import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
+import {
+  MDBJumbotron, 
+  MDBContainer, 
+  MDBRow, 
+  MDBCol,
+  MDBCardTitle,
+  MDBIcon,
+  MDBBtn,
+
+
+} from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
 import Data from '../data/Data';
@@ -21,6 +31,7 @@ class LegalisationPage extends React.Component {
       <div className="legalisations-page">
 
       <MDBContainer className="mt-5">
+        
         <MDBRow>
           <MDBCol>
             <SectionContainer noBorder>
@@ -49,6 +60,36 @@ class LegalisationPage extends React.Component {
             </SectionContainer>
           </MDBCol>
         </MDBRow>
+
+        <MDBRow>
+            <MDBCol>
+              <MDBJumbotron
+                className="text-white text-center p-0 mb-5"
+                style={{
+                  backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+                }}
+              >
+                <MDBCardTitle className="h1-responsive py-4 m-0 font-bold">
+                  Легализация
+                </MDBCardTitle>
+                <div className="content-wrapper">
+                  <p className="mx-5 mb-3">Заверка означава правно-административното оформяне на оригиналния документ или на неговото нотариално заверено копие в различни министерства и ведомства, както и заверяването на подписа на преводача от Консулски отдел на Министерство на външните работи. Легализация на документи е полагането на апостил (Apostille) в Министерството на правосъдието и Министерството на външните работи върху документи, издадени в България. С апостила се удостоверява автентичността на документа. Тази заверка е валидна за всички страни по света, подписали Хагската конвенция от 5 октомври 1961 г.</p>
+                  <p className="mx-5 mb-3">Текстът на документа се превежда от наш заклет преводач, чийто спесимен се съхранява в МВнР, и преводът се скачва със заверения документ. На място или по банков път ние заплащаме всички необходими такси. Сроковете за изпълнението на поръчките са съобразени със сроковете за заверка на министерствата и ведомствата, а цените - с таксите и държавните таксови марки на заверяващите инстанции.</p>
+                </div>
+
+                <MDBBtn outline color="white" className="mb-5" to="/contacts">
+            
+                    <MDBIcon icon="clone" className="mr-2" /> Контакти
+                  
+                </MDBBtn>
+
+          
+
+               
+         
+              </MDBJumbotron>
+            </MDBCol>
+          </MDBRow>
       </MDBContainer>
 
     </div>

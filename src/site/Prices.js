@@ -1,5 +1,18 @@
 import React from 'react';
-import {MDBJumbotron, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
+import {
+  MDBJumbotron, 
+  MDBContainer, 
+  MDBRow, 
+  MDBCol,
+  MDBIcon,
+  MDBBtn,
+  MDBCardTitle,
+  MDBCard,
+  MDBCardBody,
+  MDBCardText,
+  MDBAnimation
+
+} from 'mdbreact';
 
 import SectionContainer from '../components/sectionContainer';
 import Data from '../data/Data';
@@ -22,6 +35,7 @@ class PricesPage extends React.Component {
 
       <MDBContainer className="mt-5">
         <MDBRow>
+    
           <MDBCol>
             <SectionContainer noBorder>
               <MDBJumbotron style={{padding: 0}}>
@@ -50,6 +64,91 @@ class PricesPage extends React.Component {
             </SectionContainer>
           </MDBCol>
         </MDBRow>
+
+        <MDBRow>
+            <MDBCol>
+              <MDBJumbotron
+                className="text-white text-center p-0 mb-5"
+                style={{
+                  backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+                }}
+              >
+                <MDBCardTitle className="h1-responsive py-4 m-0 font-bold">
+                  Цената на писмения превод се определя от:
+                </MDBCardTitle>
+                <div className="content-wrapper">
+                  <ul className="translation-list">
+                    <li>езика от или на който ще се превежда;</li>
+                    <li>
+                    степента на сложност на текста, изискващ специализирани познания в съответната област;
+                    </li>
+                    <li>
+                    дължината на преведения текст, изчислена в брой знаци, вкл. интервали;
+                    </li>
+                    <li>
+                    срока за изпълнение на поръчката.
+                    </li>
+                   
+                 
+                  </ul>
+                  <p className="mx-5 mb-3">Изчисляването на обема на превода се извършва въз основа на преведения текст, а не на текста-първоизточник, като една стандартна страница е равна на 1800 знака с интервали.</p>
+                </div>
+
+                <MDBBtn outline color="white" className="mb-5" to="/contacts">
+            
+                    <MDBIcon icon="clone" className="mr-2" /> Контакти
+                  
+                </MDBBtn>
+
+              
+              </MDBJumbotron>
+            </MDBCol>
+          </MDBRow>
+
+          <MDBRow className="mb-4">
+            <MDBCol md="6" className="tranlsation-item">
+              <MDBAnimation reveal type="fadeInRight">
+                <MDBCard cascade className="">
+                  <MDBCardBody cascade className="text-center">
+                    <MDBCardTitle>
+                      <strong>Видове поръчки:</strong>
+                    </MDBCardTitle>
+                    <MDBCardText>
+                      <ul class="text-left">
+                        <li>Обикновена поръчка - 5 дни</li>
+                        <li>Бърза поръчка - 2 дни</li>
+                        <li>Експресна поръчка - 1 ден</li>
+                      </ul>
+                    </MDBCardText>
+                  </MDBCardBody>
+                </MDBCard>
+              </MDBAnimation>
+            </MDBCol>
+
+            <MDBCol md="6" className="tranlsation-item">
+              <MDBAnimation reveal type="fadeInRight">
+                <MDBCard cascade className="">
+                  <MDBCardBody cascade className="text-center">
+                    <MDBCardTitle>
+                      <strong>Начин на плащане:</strong>
+                    </MDBCardTitle>
+                    <MDBCardText>
+                    <ul class="text-left">
+                        <li>с платежно нареждане по банков път</li>
+                        <li>с наложен платеж чрез куриер</li>
+                        <li>в брой в офиса на фирмата</li>
+                      </ul>
+                    </MDBCardText>
+                  </MDBCardBody>
+                </MDBCard>
+              </MDBAnimation>
+            </MDBCol>
+
+        
+          </MDBRow>
+
+
+   
       </MDBContainer>
 
     </div>
