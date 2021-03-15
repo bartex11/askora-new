@@ -222,7 +222,7 @@ class TranslationsPage extends React.Component {
           <MDBRow className="translation-footer mb-4">
        
             <MDBCol md="6" className="tranlsation-item">
-              <MDBAnimation reveal type="fadeInRight">
+              <MDBAnimation reveal type="fadeInLeft">
                 <MDBCard cascade className="">
                   <MDBCardBody cascade className="text-center">
                     <MDBCardTitle>
