@@ -98,12 +98,16 @@ class TranslationsPage extends React.Component {
                   </ul>
                 </div>
 
-                <MDBBtn outline color="white" className="mb-5" to="/contacts">
-            
+                <MDBNavLink
+                  tag="button"
+                  to="/contacts"
+                  className="contact-link"
+                  onClick={this.scrollToTop}
+                >
+                  <MDBBtn outline color="white" className="mb-5">
                     <MDBIcon icon="clone" className="mr-2" /> Контакти
-                  
-                </MDBBtn>
-
+                  </MDBBtn>
+                </MDBNavLink>
                 <MDBBtn
                   outline
                   color="white"
@@ -119,15 +123,19 @@ class TranslationsPage extends React.Component {
                   centered
                   size="lg"
                 >
-                  <MDBModalHeader className="text-black" color="black" toggle={this.toggle(1)}>
+                  <MDBModalHeader
+                    className="text-black"
+                    color="black"
+                    toggle={this.toggle(1)}
+                  >
                     Сертификат Аскора
                   </MDBModalHeader>
                   <MDBModalBody>
-                  <img
-                        src="./images/sertifikat.jpg"
-                        alt="askora-logo"
-                        className="sertifikat-image"
-                      />
+                    <img
+                      src="./images/sertifikat.jpg"
+                      alt="askora-logo"
+                      className="sertifikat-image"
+                    />
                   </MDBModalBody>
                   <MDBModalFooter>
                     <MDBBtn color="color-text" onClick={this.toggle(1)}>
@@ -218,21 +226,31 @@ class TranslationsPage extends React.Component {
             </MDBCol>
           </MDBRow>
 
-
           <MDBRow className="translation-footer mb-4">
-       
             <MDBCol md="6" className="tranlsation-item">
               <MDBAnimation reveal type="fadeInLeft">
                 <MDBCard cascade className="">
                   <MDBCardBody cascade className="text-center">
                     <MDBCardTitle>
-                      <strong>Аскора ООД извършва следните видове преводи:</strong>
+                      <strong>
+                        Аскора ООД извършва следните видове преводи:
+                      </strong>
                     </MDBCardTitle>
                     <MDBCardText>
                       <ul>
-                        <li>преводи на документи и на всякакви видове текстове;</li>
-                        <li>официални преводи на текстове, поставени на фирмена бланка с декларация за верността на превода от преводача и фирмен печат;</li>
-                        <li>легализирани преводи на документи, заверени в съответните институции, с апостил и заверка на подписа на преводача от Консулския отдел на МВнР;</li>
+                        <li>
+                          преводи на документи и на всякакви видове текстове;
+                        </li>
+                        <li>
+                          официални преводи на текстове, поставени на фирмена
+                          бланка с декларация за верността на превода от
+                          преводача и фирмен печат;
+                        </li>
+                        <li>
+                          легализирани преводи на документи, заверени в
+                          съответните институции, с апостил и заверка на подписа
+                          на преводача от Консулския отдел на МВнР;
+                        </li>
                         <li>устни преводи: консекутивен и симултанен.</li>
                       </ul>
                     </MDBCardText>
@@ -241,7 +259,6 @@ class TranslationsPage extends React.Component {
               </MDBAnimation>
             </MDBCol>
           </MDBRow>
-
         </MDBContainer>
       </div>
     );

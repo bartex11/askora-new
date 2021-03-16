@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import {
-  MDBJumbotron, 
-  MDBContainer, 
-  MDBRow, 
+  MDBJumbotron,
+  MDBContainer,
+  MDBRow,
   MDBCol,
   MDBIcon,
   MDBBtn,
@@ -10,62 +10,50 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardText,
-  MDBAnimation
+  MDBAnimation,
+} from "mdbreact";
 
-} from 'mdbreact';
-
-import SectionContainer from '../components/sectionContainer';
-import Data from '../data/Data';
+import SectionContainer from "../components/sectionContainer";
+import Data from "../data/Data";
 
 class PricesPage extends React.Component {
-  scrollToTop = () => window.scrollTo (0, 0);
+  scrollToTop = () => window.scrollTo(0, 0);
 
   state = {
     data: Data,
   };
 
-  componentDidMount(){
-    document.title = "Аскора ООД - Цени"
+  componentDidMount() {
+    document.title = "Аскора ООД - Цени";
   }
 
-  render () {
-    const {data} = this.state;
+  render() {
+    const { data } = this.state;
     return (
       <div className="prices-page">
+        <MDBContainer className="mt-5">
+          <MDBRow>
+            <MDBCol>
+              <SectionContainer noBorder>
+                <MDBJumbotron style={{ padding: 0 }}>
+                  <MDBCol
+                    className="background-image text-center py-0 px-4"
+                    style={{ backgroundImage: `url(./images/courses.jpg)` }}
+                  >
+                    <MDBCol className="py-5 jumbo-col">
+                      <p className="mb-2">{data.pricesList}</p>
 
-      <MDBContainer className="mt-5">
-        <MDBRow>
-    
-          <MDBCol>
-            <SectionContainer noBorder>
-              <MDBJumbotron style={{padding: 0}}>
-                <MDBCol
-                  className="background-image text-center py-0 px-4"
-                  style={{backgroundImage: `url(./images/courses.jpg)`}}
-                >
+                      <p className="mb-2">{data.pricesList1}</p>
 
-                  <MDBCol className="py-5 jumbo-col">
-
-                    <p className="mb-2">
-                      {data.pricesList}
-                    </p>
-
-                    <p className="mb-2">
-                      {data.pricesList1}
-                    </p>
-
-                    <p>
-                      {data.pricesList2}
-                    </p>
-
+                      <p>{data.pricesList2}</p>
+                    </MDBCol>
                   </MDBCol>
-                </MDBCol>
-              </MDBJumbotron>
-            </SectionContainer>
-          </MDBCol>
-        </MDBRow>
+                </MDBJumbotron>
+              </SectionContainer>
+            </MDBCol>
+          </MDBRow>
 
-        <MDBRow>
+          <MDBRow>
             <MDBCol>
               <MDBJumbotron
                 className="text-white text-center p-0 mb-5"
@@ -80,27 +68,32 @@ class PricesPage extends React.Component {
                   <ul className="translation-list">
                     <li>езика от или на който ще се превежда;</li>
                     <li>
-                    степента на сложност на текста, изискващ специализирани познания в съответната област;
+                      степента на сложност на текста, изискващ специализирани
+                      познания в съответната област;
                     </li>
                     <li>
-                    дължината на преведения текст, изчислена в брой знаци, вкл. интервали;
+                      дължината на преведения текст, изчислена в брой знаци,
+                      вкл. интервали;
                     </li>
-                    <li>
-                    срока за изпълнение на поръчката.
-                    </li>
-                   
-                 
+                    <li>срока за изпълнение на поръчката.</li>
                   </ul>
-                  <p className="mx-5 mb-3">Изчисляването на обема на превода се извършва въз основа на преведения текст, а не на текста-първоизточник, като една стандартна страница е равна на 1800 знака с интервали.</p>
+                  <p className="mx-5 mb-3">
+                    Изчисляването на обема на превода се извършва въз основа на
+                    преведения текст, а не на текста-първоизточник, като една
+                    стандартна страница е равна на 1800 знака с интервали.
+                  </p>
                 </div>
 
-                <MDBBtn outline color="white" className="mb-5" to="/contacts">
-            
+                <MDBNavLink
+                  tag="button"
+                  to="/contacts"
+                  className="contact-link"
+                  onClick={this.scrollToTop}
+                >
+                  <MDBBtn outline color="white" className="mb-5" to="/contacts">
                     <MDBIcon icon="clone" className="mr-2" /> Контакти
-                  
-                </MDBBtn>
-
-              
+                  </MDBBtn>
+                </MDBNavLink>
               </MDBJumbotron>
             </MDBCol>
           </MDBRow>
@@ -133,7 +126,7 @@ class PricesPage extends React.Component {
                       <strong>Начин на плащане:</strong>
                     </MDBCardTitle>
                     <MDBCardText>
-                    <ul class="text-left">
+                      <ul class="text-left">
                         <li>с платежно нареждане по банков път</li>
                         <li>с наложен платеж чрез куриер</li>
                         <li>в брой в офиса на фирмата</li>
@@ -143,16 +136,9 @@ class PricesPage extends React.Component {
                 </MDBCard>
               </MDBAnimation>
             </MDBCol>
-
-        
           </MDBRow>
-
-
-   
-      </MDBContainer>
-
-    </div>
-
+        </MDBContainer>
+      </div>
     );
   }
 }
