@@ -88,12 +88,10 @@ class PricesPage extends React.Component {
                 <MDBNavLink
                   tag="button"
                   to="/contacts"
-                  className="contact-link"
+                  className="contact-link btn btn-outline-white mb-5"
                   onClick={this.scrollToTop}
                 >
-                  <MDBBtn outline color="white" className="mb-5" to="/contacts">
-                    <MDBIcon icon="clone" className="mr-2" /> Контакти
-                  </MDBBtn>
+                  <MDBIcon icon="clone" className="mr-2" /> Контакти
                 </MDBNavLink>
               </MDBJumbotron>
             </MDBCol>
