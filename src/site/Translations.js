@@ -15,6 +15,7 @@ import {
   MDBModalBody,
   MDBModalHeader,
   MDBModalFooter,
+  MDBNavLink
 } from "mdbreact";
 
 import SectionContainer from "../components/sectionContainer";

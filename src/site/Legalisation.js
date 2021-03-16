@@ -7,6 +7,7 @@ import {
   MDBCardTitle,
   MDBIcon,
   MDBBtn,
+  MDBNavLink
 } from "mdbreact";
 
 import SectionContainer from "../components/sectionContainer";
