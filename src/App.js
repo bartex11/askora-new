@@ -116,7 +116,7 @@ class App extends Component {
                     <strong>{data.menuContacts}</strong>
                   </MDBNavLink>
                 </MDBNavItem>
-
+         
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>

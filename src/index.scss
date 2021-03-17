@@ -69,6 +69,14 @@ $card-color: #2c9eff;
   color: #3f51b5 !important
 }
 
+.nav-link {
+  &.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+
 .jumbo-col {
   padding-bottom: 6rem;
   width: 60%;
