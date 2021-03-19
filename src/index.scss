@@ -115,9 +115,9 @@ $card-color: #2c9eff;
 
 .about-page {
   .background-image {
-    background-position: right bottom;
+    background-position: 98% center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 38%;
 
     @include for-mobile {
       background-image: none !important;
@@ -344,3 +344,13 @@ $card-color: #2c9eff;
   }
 }
 
+.list {
+
+  @include for-mobile{
+    padding: 15px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}

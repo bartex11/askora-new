@@ -69,8 +69,6 @@ class HomePage extends React.Component {
                       </MDBCardTitle>
                       <p className="mx-5 mb-3">{data.home1}</p>
 
-                      <p className="mx-5 mb-3">{data.home2}</p>
-
                       <p className="mx-5 mb-3">{data.home3}</p>
                       <MDBNavLink
                         tag="button"
