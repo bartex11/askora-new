@@ -86,7 +86,7 @@ class HomePage extends React.Component {
             </MDBRow>
 
             <MDBRow>
-              <MDBCol md="4">
+              <MDBCol md="6">
                 <MDBAnimation reveal type="fadeInLeft">
                   <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
@@ -114,7 +114,7 @@ class HomePage extends React.Component {
                 </MDBAnimation>
               </MDBCol>
 
-              <MDBCol md="4">
+              <MDBCol md="6">
                 <MDBAnimation reveal type="fadeInDown">
                   <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
@@ -143,7 +143,7 @@ class HomePage extends React.Component {
                 </MDBAnimation>
               </MDBCol>
 
-              <MDBCol md="4">
+              <MDBCol md="6">
                 <MDBAnimation reveal type="fadeInRight">
                   <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage
@@ -171,10 +171,8 @@ class HomePage extends React.Component {
                   </MDBCard>
                 </MDBAnimation>
               </MDBCol>
-            </MDBRow>
-
-            <MDBRow>
-              <MDBCol md="4">
+            
+              <MDBCol md="6">
                 <MDBAnimation reveal type="fadeInRight">
                   <MDBCard cascade className="my-3 card-color">
                     <MDBCardImage

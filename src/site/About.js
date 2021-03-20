@@ -7,7 +7,6 @@ import {
   MDBCardTitle,
   MDBCardBody,
   MDBCard,
-  MDBCardImage,
   MDBCardText,
   MDBAnimation
 } from 'mdbreact';

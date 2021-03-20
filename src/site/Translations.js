@@ -147,8 +147,41 @@ class TranslationsPage extends React.Component {
               </MDBJumbotron>
             </MDBCol>
           </MDBRow>
-
+          <MDBRow className="translation-footer mb-4">
+            <MDBCol className="tranlsation-item">
+              <MDBAnimation reveal type="fadeInLeft">
+                <MDBCard cascade className="">
+                  <MDBCardBody cascade className="text-center">
+                    <MDBCardTitle>
+                      <strong>
+                        Аскора ООД извършва следните видове преводи:
+                      </strong>
+                    </MDBCardTitle>
+                    <MDBCardText>
+                      <ul>
+                        <li>
+                          преводи на документи и на всякакви видове текстове;
+                        </li>
+                        <li>
+                          официални преводи на текстове, поставени на фирмена
+                          бланка с декларация за верността на превода от
+                          преводача и фирмен печат;
+                        </li>
+                        <li>
+                          легализирани преводи на документи, заверени в
+                          съответните институции, с апостил и заверка на подписа
+                          на преводача от Консулския отдел на МВнР;
+                        </li>
+                        <li>устни преводи: консекутивен и симултанен.</li>
+                      </ul>
+                    </MDBCardText>
+                  </MDBCardBody>
+                </MDBCard>
+              </MDBAnimation>
+            </MDBCol>
+          </MDBRow>
           <MDBRow className="mb-4">
+            
             <MDBCol md="6" className="tranlsation-item">
               <MDBAnimation reveal type="fadeInRight">
                 <MDBCard cascade className="">
@@ -227,39 +260,7 @@ class TranslationsPage extends React.Component {
             </MDBCol>
           </MDBRow>
 
-          <MDBRow className="translation-footer mb-4">
-            <MDBCol md="6" className="tranlsation-item">
-              <MDBAnimation reveal type="fadeInLeft">
-                <MDBCard cascade className="">
-                  <MDBCardBody cascade className="text-center">
-                    <MDBCardTitle>
-                      <strong>
-                        Аскора ООД извършва следните видове преводи:
-                      </strong>
-                    </MDBCardTitle>
-                    <MDBCardText>
-                      <ul>
-                        <li>
-                          преводи на документи и на всякакви видове текстове;
-                        </li>
-                        <li>
-                          официални преводи на текстове, поставени на фирмена
-                          бланка с декларация за верността на превода от
-                          преводача и фирмен печат;
-                        </li>
-                        <li>
-                          легализирани преводи на документи, заверени в
-                          съответните институции, с апостил и заверка на подписа
-                          на преводача от Консулския отдел на МВнР;
-                        </li>
-                        <li>устни преводи: консекутивен и симултанен.</li>
-                      </ul>
-                    </MDBCardText>
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBAnimation>
-            </MDBCol>
-          </MDBRow>
+          
         </MDBContainer>
       </div>
     );
