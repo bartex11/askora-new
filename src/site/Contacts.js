@@ -45,7 +45,7 @@ class Contacts extends React.Component {
                           >
                             <div className="contact-content">
                               <MDBIcon icon="map-marker-alt" size="2x" />
-                              <span>{data.contactsAddress}</span>
+                              <span>6600 Kърджали <br /> ул."Републиканска" 41</span>
                             </div>
                           </a>
                         </MDBAnimation>
@@ -68,7 +68,7 @@ class Contacts extends React.Component {
                             <MDBIcon far icon="envelope" size="2x" />
 
                             <span>
-                              {data.contactsMail} <br /> {data.contactsMail1}
+                              {data.contactsMail} <br /> {data.contactsMail1} <br /> {data.contactsMail2}
                             </span>
                           </div>
                         </MDBAnimation>
@@ -79,7 +79,7 @@ class Contacts extends React.Component {
 
                             <span>
                               0361/ 6 21 23 <br />
-                              0878 45 30 30
+                              0878 45 30 30 <br />
                             </span>
                           </div>
                         </MDBAnimation>
