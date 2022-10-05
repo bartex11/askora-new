@@ -78,8 +78,7 @@ class Contacts extends React.Component {
                             <MDBIcon icon="phone" size="2x" />
 
                             <span>
-                              0361/ 6 21 23 <br />
-                              0878 45 30 30 <br />
+                              0878 45 30 30 
                             </span>
                           </div>
                         </MDBAnimation>
