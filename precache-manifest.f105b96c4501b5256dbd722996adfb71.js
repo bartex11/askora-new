@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "098cacc4761d7da08a71e3027e850bbc",
+    "revision": "4fec0e99a0aca88b10bf5acde43841d5",
     "url": "/askora-new/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/askora-new/static/css/2.9287d1f0.chunk.css"
   },
   {
-    "revision": "b5d41ab37b57ed2a33b4",
+    "revision": "ab93c9b095a72360b578",
     "url": "/askora-new/static/css/main.e4c28e89.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/askora-new/static/js/2.dfea6823.chunk.js"
   },
   {
-    "revision": "b5d41ab37b57ed2a33b4",
-    "url": "/askora-new/static/js/main.88511ef3.chunk.js"
+    "revision": "ab93c9b095a72360b578",
+    "url": "/askora-new/static/js/main.de3d3b4c.chunk.js"
   },
   {
     "revision": "902f0ff264312a6bfc51",

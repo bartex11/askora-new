@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/askora-new/precache-manifest.14f33dde868ce97d5b2563b8b283865d.js"
+  "/askora-new/precache-manifest.f105b96c4501b5256dbd722996adfb71.js"
 );
 
 self.addEventListener('message', (event) => {
